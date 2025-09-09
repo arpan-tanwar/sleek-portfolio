@@ -1,10 +1,10 @@
-import AWS from '@/components/technologies/AWS';
 import CSS from '@/components/technologies/CSS';
+import Drupal from '@/components/technologies/Drupal';
 import Figma from '@/components/technologies/Figma';
+import Gemini from '@/components/technologies/Gemini';
 import Html from '@/components/technologies/Html';
 import JavaScript from '@/components/technologies/JavaScript';
-import Postman from '@/components/technologies/Postman';
-import TypeScript from '@/components/technologies/TypeScript';
+import Python from '@/components/technologies/Python';
 
 export interface Technology {
   name: string;
@@ -45,17 +45,12 @@ export const experiences: Experience[] = [
       {
         name: 'Python',
         href: 'https://python.org/',
-        icon: <TypeScript />, // Using TypeScript icon as placeholder for Python
+        icon: <Python />, // Using TypeScript icon as placeholder for Python
       },
       {
-        name: 'AWS',
-        href: 'https://aws.amazon.com/',
-        icon: <AWS />,
-      },
-      {
-        name: 'Postman',
-        href: 'https://www.postman.com/',
-        icon: <Postman />,
+        name: 'Gemini',
+        href: 'https://gemini.google.com/',
+        icon: <Gemini />, // Using TypeScript icon as placeholder for Gemini
       },
     ],
     website: 'https://invisibletech.ai/',
@@ -78,7 +73,7 @@ export const experiences: Experience[] = [
       {
         name: 'Drupal',
         href: 'https://drupal.org/',
-        icon: <TypeScript />, // Using TypeScript icon as placeholder for Drupal
+        icon: <Drupal />, // Using TypeScript icon as placeholder for Drupal
       },
       {
         name: 'CSS',
