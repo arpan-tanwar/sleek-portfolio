@@ -58,7 +58,7 @@ export const experiences: Experience[] = [
         icon: <Postman />,
       },
     ],
-    website: 'https://invisible.tech/',
+    website: 'https://invisibletech.ai/',
     github: 'https://github.com/invisible-tech',
   },
   {
@@ -97,7 +97,7 @@ export const experiences: Experience[] = [
       },
     ],
     website: 'https://uwindsor.ca',
-    github: 'https://github.com/uwindsor',
+    github: 'https://github.com/uwindsorcss',
   },
   {
     isCurrent: false,
@@ -133,7 +133,7 @@ export const experiences: Experience[] = [
         icon: <Figma />,
       },
     ],
-    website: 'https://leoclubeternity.org',
-    github: 'https://github.com/leoclubeternity',
+    website: 'https://www.lionsclubs.org',
+    github: 'https://github.com/CodeChefVIT/LeoClub-Website',
   },
 ];
